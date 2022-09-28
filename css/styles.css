@@ -19,6 +19,11 @@ h3 {
   color: #06283D;
 }
 
+.p_no_sp{
+  margin: 0;
+  padding: 0;
+}
+
 /* a{
   color: #47B5FF;
 }
