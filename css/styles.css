@@ -1,43 +1,85 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.15rem;
+  line-height: 1.8;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
+  margin: 1.5rem 0;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  line-height: 1.5;
+  font-size: 2rem;
+  line-height: 1.8;
+  font-weight: bold;
+  margin: 1rem 0;
 }
 h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
   font-weight: bold;
-  color: #06283D;
+  margin: 0.5rem 0;
+  color: #001D6E;
 }
 
-.p_no_sp{
-  margin: 0;
-  padding: 0;
-}
-
-/* a{
-  color: #47B5FF;
+a{
+  color: #2666CF;
+  text-decoration: none;
 }
 a:hover {
-  color: #256D85;
+  color: #001D6E;
+  text-decoration: underline;
 }
-a:active{
+/* a:active{
   color: #256D85;
   font-weight: bolder;
 } */
 
 .navbar {
   font-family: 'Montserrat', sans-serif;
+  font-stretch: extra-condensed;
+  text-decoration: none;
+}
+
+.navbar a{
+  /* color: */
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: #2666CF;
+  text-decoration: none;
+}
+
+a.nav-item {
+  color: black;
+  text-decoration: none;
+  padding: 2% 2%;
+}
+
+a.nav-item:hover{
+  color: #2666CF;
+  text-decoration: none;
   font-weight: bold;
+}
+
+a.btn-outline-dark:hover{
+  text-decoration: none;
+}
+
+a.fa{
+  color: #476072;
+}
+
+a.fa:hover{
+  color: #001D6E;
+  text-decoration: none;
+}
+
+.sm-icons{
+  padding: 7.5%;
 }
 
 .txt-center{
@@ -45,11 +87,15 @@ a:active{
 }
 
 .my-padd {
-  padding: 2% 5%;
+  padding: 0 10%;
 }
 
 .my-padd-2 {
-  padding: 10% 5%;
+  padding: 8% 10%;
+}
+
+.my-padd-3 {
+  padding: 0 2%;
 }
 
 .bg-my-light{
@@ -72,4 +118,17 @@ a:active{
 .profile_pic {
   border-radius: 100%;
   height: 250px;
+  margin: 15px 0;
+}
+
+.profile_pic_icon {
+  border-radius: 100%;
+  height: 40px;
+  margin: 0 1rem 0 1rem;
+}
+
+
+.p-nospace {
+  padding: 0;
+  margin: 0;
 }
